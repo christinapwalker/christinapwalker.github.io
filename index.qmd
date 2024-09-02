@@ -1,0 +1,44 @@
+---
+about:
+  template: jolla
+  id: about-block
+  image: "img/2022_headshot.jpg"
+  links:
+    
+    - text: "{{< ai google-scholar >}}"
+      href: https://scholar.google.com/citations?user=kDylzn0AAAAJ&hl=en
+    - icon: github
+      href: https://github.com/christinapwalker
+    - text: "{{< ai orcid >}}"
+      href: https://orcid.org/0000-0001-6591-2244
+    - text: "{{< ai researchgate >}}"
+      href: https://www.researchgate.net/profile/Christina-Walker-5
+    - text: "{{< ai dataverse >}}"
+      href: https://www.researchgate.net/profile/Christina-Walker-5
+    - icon: twitter
+      href: https://x.com/Christinapearlw
+    - icon: linkedin
+      href: https://www.linkedin.com/in/christinapwalker/
+    - icon: envelope
+      href: "mailto:walke667@purdue.edu"  
+    
+---
+
+::: {#about-block}
+:::
+
+# Christina P. Walker
+
+Welcome! I am a Ph.D. Candidate in the Department of Political Science at Purdue University and affiliated with the [Governance and Responsible AI Lab (GRAIL)](https://www.cla.purdue.edu/academic/polsci/research/labs/grail/index.html) and the [Computational Social Science Lab](https://www.cla.purdue.edu/academic/polsci/research/labs/computational-social-science-lab/index.html).
+
+I study political communication and methodology. My research addresses how politicians use new social media platforms, learn about voters' preferences on social media, and the impact of emerging technology on this elite-mass communication. I use multi-methods research including interviews, text analysis, lab and survey experiments. 
+
+My research has been published in journals such as The Communication Review, PS: Political Science & Politics, The AAAI Conference Proceedings, and Politics and the Life Sciences. 
+
+I received an M.A. at Purdue University in 2023 and a B.A. in International Relations and French Language & Literature at Oakland University. Previously, I worked in the Michigan State Senate and with USAID and the State Department.
+
+
+
+
+
+

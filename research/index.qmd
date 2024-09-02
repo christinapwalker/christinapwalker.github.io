@@ -1,0 +1,44 @@
+---
+title: "Research"
+page-layout: full
+toc-location: right
+---
+
+
+## Journal Articles
+
+:::{#articles}
+:::
+
+* Diana Zulli, Diana Deyoe, Christina Walker, and Meaghan McKasy (2024). ["Is it Funny or a Trend? Examining US News Humor on TikTok."](https://doi.org/10.1080/10714421.2024.2359802) *The Communication Review* 27(3): 1-17. 
+
+{{< downloadthis articles/funny_or_trend.pdf dname=2024_funny_or_trend class=styled id=btn1 >}}
+
+* Christina P. Walker and Evan R. Cramer (2024). ["Contagion to Unrest: Investigating the Link Between Disease and Civil Unrest in Africa."](https://doi.org/10.1017/pls.2023.27) *Politics and the Life Sciences* 43(1): 24-33. 
+
+{{< downloadthis articles/Walker_Cramer_2024_Contagion.pdf dname=Walker_Cramer_2024_Contagion class=styled id=btn1 >}}
+
+* Christina P. Walker, Daniel S. Schiff, and Kaylyn Jackson Schiff (2024). ["Merging AI Incidents Research with Political Misinformation Research: Introducing the Political Deepfakes Incidents Database."](https://doi.org/10.1609/aaai.v38i21.30349) *Proceedings of the AAAI Conference on Artificial Intelligence* 38(21).
+
+{{< downloadthis articles/Walker_etal_2024_Merging-AI-Incidents.pdf dname=Walker_etal_2024_Merging-AI-Incidents class=styled id=btn1 >}}
+
+
+* Christina P. Walker and Terri L. Towner (2022). ["Framing ISIL: The Media's Photograph Discrimination Between Africa, Europe, and the United States.](https://doi.org/10.1609/aaai.v38i21.30349) *Digital War* 3(1): 131-150.
+
+{{< downloadthis articles/Walker_Towner_2022_Framing-ISIL.pdf dname=Walker_Towner_2022_Framing-ISIL class=styled id=btn1 >}}
+
+* Christina P. Walker, Terri L. Towner, and Lea Hilliker. ["Choosing Reviewers: Predictors of Undergraduate Manuscript Evaluations."](https://doi.org/10.1017/S1049096521001888) *PS: Political Science & Politics* 55(3): 539-543.
+
+{{< downloadthis articles/walker_et_al_2022_choosing_reviewers.pdf dname=walker_et_al_2022_choosing_reviewers class=styled id=btn1 >}}
+
+* Christina P. Walker, Terri L. Towner, Rosalee A. Clawson, Zoe M. Oxley, Christine L. Nemacheck, and Ronald Rapoport (2021). ["Learning Through Peer Reviewing and Publishing in the Pi Sigma Alpha Undergraduate Journal of Politics: Twenty Years Later."](https://doi.org/10.1017/S1049096520001742) *PS: Political Science & Politics* 54(2): 346-352. 
+
+{{< downloadthis articles/walker_et_al_2021_learning_through_peer_reviewing_and_publishing_in_the_ipi_sigma_alpha.pdf dname=walker_et_al_2021_learning_through_peer_reviewing_and_publishing_in_the_ipi_sigma_alpha class=styled id=btn1 >}}
+
+* Ghazi Ghazi and Christina P. Walker (2021). ["Posts to Protests: Looking at Instagram's Role in the 2019 Lebanese Revolution."](https://www.researchgate.net/profile/Christina-Walker-5/publication/361944213_Spring_2021_Posts_to_Protests_Looking_at_Instagram's_Role_in_the_2019_Lebanese_Revolution/links/62cdd11e6151ad090b960b72/Spring-2021-Posts-to-Protests-Looking-at-Instagrams-Role-in-the-2019-Lebanese-Revolution.pdf) *Journal of Middle Eastern Politics and Policy:* 31-37.
+
+{{< downloadthis articles/Ghazi_Walker_2021_Posts-to-Protests.pdf dname=Ghazi_Walker_2021_Posts-to-Protests class=styled id=btn1 >}}
+
+* Paul Kubicek and Christina Walker (2020). ["Do Truth and Reconciliation Committees Improve Human Rights? Evidence from Africa.](https://doi.org/10.1080/21520844.2020.1808401) *The Journal of the Middle East and Africa* 11(3): 295-310.
+
+{{< downloadthis articles/Kubicek_Walker_2020_Do-Truth-Reconciliation.pdf dname=Kubicek_Walker_2020_Do-Truth-Reconciliation class=styled id=btn1 >}}

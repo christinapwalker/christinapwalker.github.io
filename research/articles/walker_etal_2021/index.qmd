@@ -1,0 +1,42 @@
+---
+title: "Learning through Peer Reviewing and Publishing in the Pi Sigma Alpha Undergraduate Journal of Politics: Twenty Years Later"
+date: 2021-04
+author:
+  - name: Christina P. Walker
+    url: http://www.suparnachaudhry.com/
+    orcid: 0000-0003-3506-7590
+    affiliation: Purdue University
+  - name: Terri L. Towner
+    url: https://marriottschool.byu.edu/directory/details?id=50683
+    affiliation: Marriott School of Business, Brigham Young University
+  - name: Andrew Heiss
+    url: https://www.andrewheiss.com/
+    orcid: 0000-0002-3948-3914
+    affiliation: Andrew Young School of Policy Studies, Georgia State University
+categories: 
+
+pub-info:
+  reference: >-
+    <a href="http://www.suparnachaudhry.com/">Suparna Chaudhry</a>, <a href="https://marriottschool.byu.edu/directory/details?id=50683">Marc Dotson</a>, and <strong>Andrew Heiss</strong>, “Who Cares About Crackdowns? Exploring the Role of Trust in Individual Philanthropy,” <em>Global Policy</em> 12, no. S5 (July 2021): 45–58, doi: <a href="https://doi.org/10.1111/1758-5899.12984"><code>10.1111/1758-5899.12984</code></a>
+#   links:
+#     - name: Preprint
+#       url: chaudhry-dotson-heiss-who-cares-crackdowns.pdf
+#       icon: fa-solid fa-file-pdf
+#       local: true
+#     - name: Final version
+#       url: https://doi.org/10.1111/1758-5899.12984
+#       icon: fa-solid fa-scroll
+#     - name: Code
+#       url: https://github.com/andrewheiss/who-cares-about-crackdown
+#       icon: fa-brands fa-github
+#     - name: Data
+#       url: "#data-and-code"
+#       icon: fa-solid fa-table
+#     - name: Add to Zotero
+#       url: https://www.zotero.org/save?type=doi&q=10.1111/1758-5899.12984
+#       icon: ai ai-zotero
+#   extra: >-
+#     Presented at a workshop for a special issue of *Global Policy* entitled “Restricting NGOs: From Pushback to Accommodation,” University of Amsterdam, The Netherlands, June 2020 (held online due to COVID-19)
+# doi: 10.1111/1758-5899.12984
+---
+

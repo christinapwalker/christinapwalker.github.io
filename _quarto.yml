@@ -1,0 +1,74 @@
+
+# website settings
+website:
+  title: "Christina Walker"  
+  search: false
+  # Your name
+  # description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  image: img/my_image.jpg
+  
+  favicon: img/purdue_icon.png
+  
+  # start of the navigation bar at the top of the website
+  navbar:
+    title: false
+    # pinned: true
+    # logo: /img/purdue_icon.png
+    
+    # your sub-pages
+    right:
+      - text: " "
+        icon: house
+        href: index.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Teaching"
+        href: teaching/index.qmd
+      - text: "CV"
+        href: cv/index.qmd
+  
+  
+  
+
+# Don't touch unless you know what you are doing :) ------------
+  # search: 
+  #   location: navbar
+  #   type: textbox
+  page-footer: 
+    left: |
+      <span class="faux-block"> 2024 Christina Walker</span>
+    center: |
+
+
+    right: |
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=kDylzn0AAAAJ&hl=en" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://github.com/christinapwalker" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0001-6591-2244" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Christina-Walker-5" title="researchgate" target="_blank" rel="noopener">{{< ai researchgate >}}</a>
+      <a class="link-dark me-1" href="https://www.researchgate.net/profile/Christina-Walker-5" title="dataverse" target="_blank" rel="noopener">{{< ai dataverse >}}</a>
+
+project:
+  type: website
+  output-dir: docs
+
+  preview: 
+    port: 22222
+    browser: true
+    watch-inputs: true
+    navigate: true
+
+execute:
+  freeze: true
+
+format:
+  html:
+    fontsize: 1.1em
+    theme: 
+      - litera
+      - html/styles.scss
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
