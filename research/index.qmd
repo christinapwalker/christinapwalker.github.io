@@ -11,6 +11,8 @@ toc-location: right
 :::
 * Walker, Christina P. and Joan C. Timoneda (Forthcoming). ["Is ChatGPT Conservative or Liberal? A Novel Approach to Assess Ideological Stances and Biases in Generative AI Models"](https://arxiv.org/pdf/2409.06043) *Political Science Research and Methods.*
 
+{{< downloadthis articles/walker_gpt.pdf dname=2024_funny_or_trend class=styled id=btn1 >}}
+
 * Diana Zulli, Diana Deyoe, Christina Walker, and Meaghan McKasy (2024). ["Is it Funny or a Trend? Examining US News Humor on TikTok."](https://doi.org/10.1080/10714421.2024.2359802) *The Communication Review* 27(3): 1-17. 
 
 {{< downloadthis articles/funny_or_trend.pdf dname=2024_funny_or_trend class=styled id=btn1 >}}

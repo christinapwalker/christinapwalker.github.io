@@ -98,73 +98,34 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
-</header><p>.embed-container { position: relative; padding-bottom: 129%; height: 0; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</p>
+</header><div class="cell">
+<style type="text/css">
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
+</div>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 <p class="text-center">
-<a class="btn btn-primary btn-lg cv-download" id="download-link" href="#" target="_blank"> <i class="fa-solid fa-file-arrow-down"></i> Download current CV </a>
+<a class="btn btn-primary btn-lg cv-download" href="cv.pdf" target="_blank"> <i class="fa-solid fa-file-arrow-down"></i> Download current CV </a>
 </p>
 <div class="embed-container">
-<p><object id="pdf-object" data="#" type="application/pdf" width="100%" height="600px"> <iframe id="pdf-iframe" src="#" style="border: 0.5px;width: 100%; height: 100%;"></iframe> </object></p>
+<p><object data="cv.pdf" type="application/pdf" width="100%" height="600px"> <iframe src="cv.pdf#toolbar=0" style="border: 0.5px; width: 100%; height: 100%;"></iframe> </object></p>
 </div>
-<script>
-  const [downloadableResume, setDownloadableResume] = useState();
 
-  const baseUrl = "https://api.github.com/graphql";
-
-  const httpLink = createHttpLink({
-    uri: baseUrl,
-  });
-
-  const authLink = setContext((_, { headers }) => {
-    return {
-      headers: {
-        ...headers,
-        authorization: `Bearer ${process.env.GITHUB_ACCESS_TOKEN}`,
-      },
-    };
-  });
-
-  const client = new ApolloClient({
-    link: authLink.concat(httpLink),
-    cache: new InMemoryCache(),
-  });
-
-  useEffect(() => {
-    client.query({
-        query: gql`
-        {
-          viewer {
-            login
-          }
-          repository(name: "resume", owner: "dessygil") {
-            id
-            releases(first: 1) {
-              edges {
-                node {
-                  id
-                  releaseAssets(first: 1) {
-                    edges {
-                      node {
-                        downloadUrl
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-        `,
-      })
-      .then((response) => {
-        const url = response.data.repository.releases.edges[0].node.releaseAssets.edges[0].node.downloadUrl;
-        setDownloadableResume(url);
-        document.getElementById('download-link').href = url;
-        document.getElementById('pdf-object').data = url;
-        document.getElementById('pdf-iframe').src = url + '#toolbar=0';
-      });
-  }, []);
-</script>
 
 
 </main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
