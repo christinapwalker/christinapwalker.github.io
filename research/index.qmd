@@ -42,3 +42,13 @@ toc-location: right
 * Paul Kubicek and Christina Walker (2020). ["Do Truth and Reconciliation Committees Improve Human Rights? Evidence from Africa.](https://doi.org/10.1080/21520844.2020.1808401) *The Journal of the Middle East and Africa* 11(3): 295-310.
 
 {{< downloadthis articles/Kubicek_Walker_2020_Do-Truth-Reconciliation.pdf dname=Kubicek_Walker_2020_Do-Truth-Reconciliation class=styled id=btn1 >}}
+
+## Book Chapters
+
+:::{#chapters}
+:::
+
+* Walker, Christina P. (2025). ["Framing False Information: Examining Legislators' Discourse Surrounding
+January 6."](https://doi.org/10.1080/21520844.2020.1808401) *Partisan Rhetoric and Polarization, the Year in C-SPAN Archives Research*, Volume 10, ed. Robert X. Browning. Purdue University Press, 105-20.
+
+{{< downloadthis chapters/Walker_2025_Framing-False-Info.pdf dname=Walker_2025_Framing-False-Info.pdf class=styled id=btn1 >}}
