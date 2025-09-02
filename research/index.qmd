@@ -9,6 +9,7 @@ toc-location: right
 
 :::{#articles}
 :::
+* Walker, Christina P. and Joan C. Timoneda (Forthcoming). ["Is ChatGPT Conservative or Liberal? A Novel Approach to Assess Ideological Stances and Biases in Generative AI Models"](https://arxiv.org/pdf/2409.06043) *Political Science Research and Methods.*
 
 * Diana Zulli, Diana Deyoe, Christina Walker, and Meaghan McKasy (2024). ["Is it Funny or a Trend? Examining US News Humor on TikTok."](https://doi.org/10.1080/10714421.2024.2359802) *The Communication Review* 27(3): 1-17. 
 
@@ -39,7 +40,7 @@ toc-location: right
 
 {{< downloadthis articles/Ghazi_Walker_2021_Posts-to-Protests.pdf dname=Ghazi_Walker_2021_Posts-to-Protests class=styled id=btn1 >}}
 
-* Paul Kubicek and Christina Walker (2020). ["Do Truth and Reconciliation Committees Improve Human Rights? Evidence from Africa.](https://doi.org/10.1080/21520844.2020.1808401) *The Journal of the Middle East and Africa* 11(3): 295-310.
+* Paul Kubicek and Christina Walker (2020). ["Do Truth and Reconciliation Committees Improve Human Rights? Evidence from Africa."](https://doi.org/10.1080/21520844.2020.1808401) *The Journal of the Middle East and Africa* 11(3): 295-310.
 
 {{< downloadthis articles/Kubicek_Walker_2020_Do-Truth-Reconciliation.pdf dname=Kubicek_Walker_2020_Do-Truth-Reconciliation class=styled id=btn1 >}}
 
@@ -48,7 +49,6 @@ toc-location: right
 :::{#chapters}
 :::
 
-* Walker, Christina P. (2025). ["Framing False Information: Examining Legislators' Discourse Surrounding
-January 6."](https://doi.org/10.1080/21520844.2020.1808401) *Partisan Rhetoric and Polarization, the Year in C-SPAN Archives Research*, Volume 10, ed. Robert X. Browning. Purdue University Press, 105-20.
+* Walker, Christina P. (2025). ["Framing False Information: Examining Legislators' Discourse Surrounding January 6."](https://www.jstor.org/stable/jj.22177843.11) *Partisan Rhetoric and Polarization, the Year in C-SPAN Archives Research*, Volume 10, ed. Robert X. Browning. Purdue University Press, 105-20.
 
 {{< downloadthis chapters/Walker_2025_Framing-False-Info.pdf dname=Walker_2025_Framing-False-Info.pdf class=styled id=btn1 >}}
