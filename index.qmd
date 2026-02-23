@@ -29,7 +29,7 @@ about:
 
 # Christina P. Walker
 
-Welcome! I am a Ph.D. Candidate in the Department of Political Science at Purdue University and affiliated with the [Governance and Responsible AI Lab (GRAIL)](https://www.cla.purdue.edu/academic/polsci/research/labs/grail/index.html) and the [Computational Social Science Lab](https://www.cla.purdue.edu/academic/polsci/research/labs/computational-social-science-lab/index.html).
+Welcome! I am a Ph.D. Candidate in the Department of Political Science at Purdue University and affiliated with the [Governance and Responsible AI Lab (GRAIL)](https://www.cla.purdue.edu/academic/polsci/research/labs/grail/index.html) and the [Computational Social Science Lab](https://www.cla.purdue.edu/academic/polsci/research/labs/computational-social-science-lab/index.html). In Fall 2026, I will join the University of Georgia's Department of International Affairs as an Assistant Professor.
 
 I specialize in comparative politics and methodology, with a research agenda focused on how digital technologies and artificial intelligence (AI) shape political information, public trust, and democratic accountability. I examine both how these technologies affect political behavior and develop new computational and experimental methods to study these effects. On the substantive side, I examine elite strategic communication and information in digital environments, and how citizens process and respond to political content online. On the methodological side, I develop computational and experimental tools that advance how political scientists study behavior in the digital era. 
 
