@@ -2,8 +2,8 @@ name: automatically update CV PDF from Overleaf
 
 on:
   schedule:
-    - cron: '0 * * * *'  # runs every hour
-  workflow_dispatch:       # can trigger automatically
+    - cron: '0 * * * *'  # runs every hour, or can trigger automatically
+  workflow_dispatch:       
 
 jobs:
   fetch-pdf:
