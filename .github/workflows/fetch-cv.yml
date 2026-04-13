@@ -1,25 +1,28 @@
 name: automatically update CV PDF from Overleaf
 
-on:
-  schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
-
 permissions:
   contents: write
 
+on:
+  schedule:
+    - cron: '0 0 * * *'  # daily at midnight
+  workflow_dispatch:
+
 jobs:
-  fetch-pdf:
+  get-pdf:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Download PDF from Overleaf
-        run: |
-          curl -L "https://www.overleaf.com/download/project/69dce6e263afa3c28a92731d/build/latest/output/output.pdf" \
-            -o cv/cv.pdf
+      - uses: Sbrjt/overleaf-resume-syncer@main
+        with:
+          overleaf_url: 'https://www.overleaf.com/read/pcczthmkhfjn#bcbc65'
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Commit and push if changed
+      - name: Move PDF to cv folder
+        run: mv resume.pdf cv/cv.pdf
+
+      - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
