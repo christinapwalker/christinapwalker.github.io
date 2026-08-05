@@ -22,10 +22,21 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage[pro]{fontawesome5}
+\usepackage[dvipsnames]{xcolor}
+% Hyperlink color (hex #20349F)
+\definecolor{HyperlinkBlue}{HTML}{20349F}
 
 \usepackage[left=0.6in,top=0.6in,right=0.6in,bottom=0.6in]{geometry} % Document margins
 \usepackage{hyperref}
-\usepackage{fontawesome5}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=HyperlinkBlue,
+  linkcolor=HyperlinkBlue,
+  citecolor=HyperlinkBlue,
+  pdfborder={0 0 0}
+}
+\urlstyle{same}
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \usepackage{etaremune}
@@ -35,7 +46,7 @@
 \name{Christina P. Walker} % Your name
 \address{she/her/hers} % Your address --> I changed to pronouns
 %\address{} % Your secondary address (optional)
-\address{{\href{mailto:walke667@purdue.edu}{\faEnvelope}} \\ \href{https://christinapwalker.com}{\faIcon{laptop}}}  % Your email and twitter
+\address{{\href{mailto:christinapwalker@uga.edu}{\faEnvelope}} \\ \href{https://christinapwalker.com}{\faIcon{laptop}}}  % Your email and twitter
 
 
 
@@ -46,14 +57,15 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Academic Appointments}
-{\bf University of Georgia} \hfill {\em Starting Fall 2026} 
+{\bf University of Georgia} \hfill {\em 2026-} 
 \\ {\it Assistant Professor, Department of International Affairs}
+\\ {\it Faculty Fellow, Benson-Bertsch Center for International Trade \& Security}
 \end{rSection}
 
 
 \begin{rSection}{Education}
 
-{\bf Purdue University, West Lafayette, IN} \hfill {\em Expected: 2026} 
+{\bf Purdue University, West Lafayette, IN} \hfill {\em 2021-2026} 
 \\ {\it Ph.D., Political Science
 \\ Major Field: Comparative Politics, Minor Field: Political Research Methodology}
 
@@ -89,7 +101,7 @@
 
 \begin{itemize}
     \item Winner of the Inaugural CASMI AI Incidents and Best Practices Paper Award
-    \item Media coverage: \href{https://thehackernews.com/expert-insights/2025/12/purdue-universitys-real-world-deepfake.html}{The Hacker News}, \href{https://www.technologyreview.com/2024/06/08/1093356/propagandists-are-using-ai-too-and-companies-need-to-be-open-about-it/}{MIT Technology Review}, \href{https://www.wishtv.com/news/i-team-8/purdue-profs-show-how-deepfakes-could-impact-2024-presidential-election/}{Wish-TV}, \href{https://time.com/7022120/ai-election-misinformation-2024/}{Time Magazine}, \href{https://www.brookings.edu/articles/watch-out-for-false-claims-of-deepfakes-and-actual-deepfakes-this-election-year/}{Brookings}, \href{https://www.nbcnews.com/tech/internet/truth-social-trump-embraced-ai-media-attack-foes-boost-image-rcna234978}{NBC News}, \href{https://cdt.org/wp-content/uploads/2025/03/2025-02-25-Civic-Space-Response-to-AI-Infused-Elections-report.pdf}{Center for Democracy and Technology}, \href{https://www.ft.com/content/62d81e6c-eec0-4d09-a71f-6aba579912dd}{Financial Times}, \href{https://www.politifact.com/article/2024/dec/19/not-the-ai-election-why-artificial-intelligence-di/}{PolitiFact}, \href{https://www.theatlantic.com/technology/archive/2024/11/ai-election-propaganda/680677//}{The Atlantic}, \href{https://www.washingtonpost.com/technology/2024/11/09/ai-deepfakes-us-election/}{The Washington Post}, \href{https://time.com/7131271/ai-2024-elections/}{Time Magazine}, \href{https://www.standaard.be/cnt/dmf20241110_93317271}{De Standaard}, \href{https://www.scrippsnews.com/politics/disinformation-desk/viral-celebrity-deepfake-ad-warns-of-ai-being-used-trick-you-into-not-voting}{Scripps News} 
+    \item Media coverage: \href{https://www.theguardian.com/technology/2026/mar/28/military-deepfakes-ai-propaganda-money}{The Guardian}, \href{https://thehackernews.com/expert-insights/2025/12/purdue-universitys-real-world-deepfake.html}{The Hacker News}, \href{https://www.technologyreview.com/2024/06/08/1093356/propagandists-are-using-ai-too-and-companies-need-to-be-open-about-it/}{MIT Technology Review}, \href{https://www.wishtv.com/news/i-team-8/purdue-profs-show-how-deepfakes-could-impact-2024-presidential-election/}{Wish-TV}, \href{https://time.com/7022120/ai-election-misinformation-2024/}{Time Magazine}, \href{https://www.brookings.edu/articles/watch-out-for-false-claims-of-deepfakes-and-actual-deepfakes-this-election-year/}{Brookings}, \href{https://www.nbcnews.com/tech/internet/truth-social-trump-embraced-ai-media-attack-foes-boost-image-rcna234978}{NBC News}, \href{https://cdt.org/wp-content/uploads/2025/03/2025-02-25-Civic-Space-Response-to-AI-Infused-Elections-report.pdf}{Center for Democracy and Technology}, \href{https://www.ft.com/content/62d81e6c-eec0-4d09-a71f-6aba579912dd}{Financial Times}, \href{https://www.politifact.com/article/2024/dec/19/not-the-ai-election-why-artificial-intelligence-di/}{PolitiFact}, \href{https://www.theatlantic.com/technology/archive/2024/11/ai-election-propaganda/680677//}{The Atlantic}, \href{https://www.washingtonpost.com/technology/2024/11/09/ai-deepfakes-us-election/}{The Washington Post}, \href{https://time.com/7131271/ai-2024-elections/}{Time Magazine}, \href{https://www.standaard.be/cnt/dmf20241110_93317271}{De Standaard}, \href{https://www.scrippsnews.com/politics/disinformation-desk/viral-celebrity-deepfake-ad-warns-of-ai-being-used-trick-you-into-not-voting}{Scripps News} 
 \end{itemize}
 
 \item Walker, Christina P. and Evan Cramer**. 2023. âConflict  to Contagion: Examining the Relationship Between Disease and Conflict in Africa.â  \textit{Politics \& the Life Sciences}.\href{https://www.cambridge.org/core/services/aop-cambridge-core/content/view/BC1388BEDE0C769F1AABDA8C2C4DC2C5/S0730938423000278a.pdf/contagion_to_unrest_investigating_the_link_between_disease_and_civil_unrest_in_africa.pdf}{\faIcon{file-pdf} }
@@ -113,11 +125,11 @@
 \end{etaremune}
 \end{rSection}
 
-\begin{rSection}{Editor Reviewed Book Chapters}
-\begin{etaremune}
+% \begin{rSection}{Editor Reviewed Book Chapters}
+% \begin{etaremune}
 
-\end{etaremune}
-\end{rSection}
+% \end{etaremune}
+% \end{rSection}
 
 \begin{rSection}{Working Papers}
 
@@ -172,7 +184,7 @@ Wack, Morgan, Christina Walker, Alena Birrer, Kaylyn Jackson Schiff, Daniel Schi
 % GRANTS SCHOLARSHIPS %
 \begin{rSection}{Grants and Fellowships}
 {\it External}
-\\ Registration Grant (Association for Public Policy Analysis \& Management) (\$130)
+\\ Registration Grant (Association for Public Policy Analysis \& Management, 2025) (\$130)
 \\ APSA Travel Grant (Information, Technology, \& Politics Section, 2025) (\$500)
 \\Best Practices for AI Incident Reporting (Future of Life Institute, 2024) (\$5,000) (K.J. Schiff, D. Schiff) % and management to address collective harms
 \\National Science Foundation EITM Summer Institute (Emory University, 2024)
@@ -304,7 +316,7 @@ Department of Political Science (Elon University, 2024)
 %----------------------------------------------------------------------------------------
 % teaching
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Teaching Experience} %\itemsep -3pt
+\begin{rSection}{Teaching} %\itemsep -3pt
 
 
 {\it Independent Instructor - Purdue University}
@@ -389,7 +401,7 @@ Department of Political Science (Elon University, 2024)
 \\Student Representative (College of Arts \& Sciences Dean Search Committee, 2020-2021)
 \\Associate Chair (Student Activities Funding Board, 2019-2020)
 \\Student Representative (Academic Standing and Honors Committee, 2019-2020)
-\newpage
+
 %\newpage
 {\it Purdue University (Department)}  
 \\Graduate Representative (2022-2023, 2024-2026) 
